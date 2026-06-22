@@ -124,11 +124,27 @@ footer{
 
 
 .carousel-caption {
-    font-size: 22px;
+    background: rgba(0,0,0,0.3);
+    padding: 6px 10px;
+    border-radius: 8px;
+    width: 75%;
 }
 
+.carousel-caption h5 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.carousel-caption p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
 @media (max-width: 768px) {
-    .banner-text {
+    .carousel-caption {
+        width: 90%;
+    }
+
+    .carousel-caption p {
         font-size: 14px;
     }
 }
